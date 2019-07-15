@@ -15,5 +15,12 @@ The ouput will be created in the "P", "T_all", "resultForOriginalData", "resultF
 /resultForShuffledData_iterx: the ICC value, ICC variance, T_value, MetaICC value, and MetaICC variance using x-th shuffled data (x=1,2,...N, N is the number of shuffled data).
 
 Script_inter_subject_ICC: The script to calculate inter-subject ICC 
-
 Script_intra_subject_ICC: The script to calculate intra-subject ICC 
+
+computeAndSaveP: Compute and save P value using original and suffled data
+computeP: Compute P values by 1-tail or two-tail test.
+iccMetaAnalysis: Pool the icc vlaues in intra-subject ICC analysis.
+Mcnemar_test:  Fisher’s mid-p test form the observed joint probability.
+shuffle: shuffle the originl time series using phase-randomization method.
+
+
