@@ -1,5 +1,5 @@
-function Y = par_support_spm_phase_shuffling(X)
-%  Y = par_support_spm_phase_shuffling(X)
+function Y = phase_shuffling(X)
+%  Y = phase_shuffling(X)
 %  parallel phase shuffling
 %  X is a matrix. Shuffling is applied to each column vector in X.
 %
