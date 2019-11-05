@@ -1,4 +1,4 @@
-function [var] = Calvar(mtx, v, tp)
+function [var] = InterVariance(mtx, v, tp)
 % var = varGaussian(mtx, tp, flag), calculate the variance.
 % tp = # of time points, and using ICC if flag = 0, ICC* if flag = 1.
 
