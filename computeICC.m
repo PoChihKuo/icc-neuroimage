@@ -38,7 +38,7 @@ ICC_variance = zeros(nBrainVoxels,1);
 
 for v = 1:nBrainVoxels,
 	vmatrix = cov(brainData(:,:,v)');
-	ICC_variance(v) = varGaussian(tmatrix(:,:,v), vmatrix, Tp);
+	ICC_variance(v) = var(tmatrix(:,:,v), vmatrix, Tp);
 end
 
 % ----------------------------------------------------------

@@ -1,4 +1,4 @@
-function [var] = varGaussian(mtx, v, tp, flag)
+function [var] = Calvar(mtx, v, tp)
 % var = varGaussian(mtx, tp, flag), calculate the variance.
 % tp = # of time points, and using ICC if flag = 0, ICC* if flag = 1.
 
